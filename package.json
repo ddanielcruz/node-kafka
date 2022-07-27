@@ -1,0 +1,14 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "scripts": {
+    "consumer": "tsnd --rs --transpile-only --ignore-watch node_modules src/consumer.ts",
+    "producer": "tsnd --rs --transpile-only --ignore-watch node_modules src/producer.ts"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^18.6.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
